@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "I AM JESSICA"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Yukari Jessica Tham"
+description              : &description "The University of Tokyo/Social Psychology"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Yukari Jessica"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "東京大学社会心理学 修士2年"
   location         : "Location"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  award:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -209,10 +209,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _award
   - scope:
       path: ""
-      type: teaching
+      type: award
     values:
       layout: single
       author_profile: true
@@ -227,23 +227,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:

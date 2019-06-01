@@ -11,49 +11,45 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Tokyo, Hitotsubashi University, 2018
+* M.S. in Tokyo, Tokyo University, 2020(予定)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* Summer 2017: Research Assistant
+  * The University of British Columbia
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
+* Fall 2019: Research Assistant
+  * Tokyo Future University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-  
-Skills
+
+Key Words:
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* justice
+* fairness
+* social dilemma
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
+
+Award
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.award %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
